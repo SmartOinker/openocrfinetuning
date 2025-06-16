@@ -18,7 +18,7 @@ Results will be in the `output/` folder. `output/best.pth` is a model trained fr
 
 After finetuning, look at `0-main.ipynb` for inference code. 
 
-Refer to `1-sidequest.ipynb` for my YOLO line detection model. In my usecase, the line detection model is used to extract lines images from scans, before the OpenOCR recognition model performs OCR on the line images. Refer to `1-sidequest.ipynb` for training the YOLO line detection model, and `./dataset_yolo` for dataset format required for YOLO line detection model training (standard YOLO dataset)
+Refer to `1-sidequest.ipynb` for my YOLO line detection model. In my usecase, the line detection model is used to extract lines images from scans, before the OpenOCR recognition model performs OCR on the line images. Refer to `1-sidequest.ipynb` for training the YOLO line detection model. Look at `./dataset_yolo` for dataset format when training YOLO line detection model (standard YOLO dataset)
 
 Lastly, refer to `2-integrating_sidequest.ipynb` to see how my OpenOCR recognition model works with my YOLO line detection model. My methodology could serve as an inspiration for your OCR finetuning endeavours. 
 

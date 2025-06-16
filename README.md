@@ -1,4 +1,4 @@
-OpenOCR may be hard to figure out when you wanna finetune on custom dataset. I present the process of finetuning the OpenOCR recognition model repsvtr on my custom dataset.
+OpenOCR may be hard to figure out when you wanna finetune on custom dataset. I present the process of finetuning SVTRv2_mobile (from OpenOCR) on my custom dataset.
 
 Run this
 ```

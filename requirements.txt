@@ -1,6 +1,7 @@
 numpy==1.26.4
 opencv-python==4.11.0.86
 torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+ultralytics
 
 imgaug
 lmdb
@@ -8,3 +9,5 @@ pyclipper
 pyyaml
 rapidfuzz
 tqdm
+scipy
+pillow
